@@ -61,17 +61,6 @@ And I am sure that my qualities will help me achieve high results in this area.
 
 ### Code example:
 
-```function fakeBin(str){
-   const arr = str.split('');
-   const result = arr.map(function(elem){
-
-   return elem >= 5 ? 1 : 0;
-});
-
-return result.join('');
-}
-```
-
 ```var runLengthEncoding = function(str){
     const arr=[];
     let value=1;
