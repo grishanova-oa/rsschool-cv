@@ -72,6 +72,6 @@ And I am sure that my qualities will help me achieve high results in this area.
         value++;
         }
     }
-return arr;
-}
+    return arr;
+    }
 ```
