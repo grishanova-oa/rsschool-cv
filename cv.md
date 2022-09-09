@@ -6,7 +6,7 @@ beginner front-end developer
 
 ### Contacts:
 
-Location: Minsk, Belarus  
+Location: Minsk, Belarus 
 Phone: +375 29 891 98 72  
 E-mail: grishanova.oa@gmail.com  
 GitHub: grishanova-oa  
@@ -27,3 +27,62 @@ And I am sure that my qualities will help me achieve high results in this area.
 * Belarusian State University of Informatics and Radioelectronics;  
 * HtmlAcademy courses;  
 * RS-School;  
+
+---
+
+### Skils:
+
+1. Html;  
+2. CSS;  
+3. JS;  
+4. Git;  
+
+---
+
+### Project:
+
+- Portfolio;  
+- Eco-sounds;
+- Memo-game;
+- Img-galery;
+- Travel;
+- Shelter;
+- CssMemSlider;
+
+---
+
+### Language:
+
+- Russian - Native;  
+- English - A2;  
+- Polish - A2
+
+---
+
+### Code example:
+
+```function fakeBin(str){
+   const arr = str.split('');
+   const result = arr.map(function(elem){
+
+   return elem >= 5 ? 1 : 0;
+});
+
+return result.join('');
+}
+```
+
+```var runLengthEncoding = function(str){
+    const arr=[];
+    let value=1;
+    for (let i=0;i<str.length;i++){
+        if (str[i]!==str[i+1]){
+        arr.push([value,str[i]]);
+        value=1;
+        } else {
+        value++;
+        }
+    }
+return arr;
+}
+```
